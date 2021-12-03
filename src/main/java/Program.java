@@ -13,9 +13,9 @@ public class Program {
         user.setUsername("theman@hotmail.com");
         user.setRegistrationDate(new Date());
 
-        //javaNative(user);
+        javaNative(user);
 
-        jacksonXML(user);
+//        jacksonXML(user);
     }
 
     private static void jacksonXML(User user) {

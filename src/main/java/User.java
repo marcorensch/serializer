@@ -6,6 +6,7 @@ public class User implements Serializable {
     // Serializable interface + serialVersionUID required by JavaSerializer
     private static final long serialVersionUID = 1L;
 
+    // Java serializes private fields and does not necessarily require getters and setters
     private String username;
     private Date registrationDate;
 
